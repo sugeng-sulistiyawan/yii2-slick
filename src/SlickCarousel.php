@@ -49,11 +49,13 @@ class SlickCarousel extends Widget
 
     /**
      * @var array default `[]`, for option `$(#options['id']).slick(pluginOptions);`
+     * @see https://github.com/kenwheeler/slick/#settings
      */
     public $pluginOptions = [];
 
     /**
      * @var array default `[]`, JQuery events
+     * @see https://github.com/kenwheeler/slick/#events
      * 
      * ```php
      * 'pluginEvents' => [
@@ -90,7 +92,7 @@ class SlickCarousel extends Widget
      *     'lazyLoadError' => 'function(event, slick, image, imageSource) {
      *         console.log("Fires after image fails to load");
      *     }',
-     * ];
+     * ],
      * ```
      */
     public $pluginEvents = [];

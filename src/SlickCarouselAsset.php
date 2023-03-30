@@ -17,7 +17,7 @@ class SlickCarouselAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@npm/slick=carousel';
+    public $sourcePath = '@npm/slick-carousel';
 
     /**
      * @inheritdoc
