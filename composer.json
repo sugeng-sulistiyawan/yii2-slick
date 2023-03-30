@@ -22,8 +22,8 @@
 	},
 	"require": {
 		"php": ">=7.4.0",
-		"yiisoft/yii2": "~2.0.0",
-		"npm-asset/slick-carousel": "~1.8.1"
+		"yiisoft/yii2": "~2.0",
+		"npm-asset/slick-carousel": "~1.8"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~9.5.0"
