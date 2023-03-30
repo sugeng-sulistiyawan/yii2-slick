@@ -30,12 +30,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"diecoding\\yii2\\slick\\": "src/"
+			"diecoding\\slick\\": "src/"
 		}
 	},
     "autoload-dev": {
         "psr-4": {
-            "diecoding\\yii2\\slick\\tests\\": "tests/"
+            "diecoding\\slick\\tests\\": "tests/"
         }
     },
     "repositories": [
