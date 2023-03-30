@@ -43,13 +43,67 @@ class SlickCarousel extends Widget
     public $itemTag = 'div';
 
     /**
-     * @var bool default `false`, `true` if use custom or external dropify assets
+     * @var bool default `false`, `true` if use custom or external slick assets
      */
     public $skipCoreAssets = false;
 
     /**
      * @var array default `[]`, for option `$(#options['id']).slick(pluginOptions);`
      * @see https://github.com/kenwheeler/slick/#settings
+     * 
+     * ```php
+     * 'pluginEvents' => [
+     *     'accessibility'    => true,                                                         // boolean, default `true`
+     *     'adaptiveHeight'   => false,                                                        // boolean, default `false`
+     *     'appendArrows'     => $(element),                                                   // string, default `$(element)`
+     *     'appendDots'       => $(element),                                                   // string, default `$(element)`
+     *     'arrows'           => true,                                                         // boolean, default `true`
+     *     'asNavFor'         => $(element),                                                   // string, default `$(element)`
+     *     'autoplay'         => false,                                                        // boolean, default `false`
+     *     'autoplaySpeed'    => 3000,                                                         // int, default `3000`
+     *     'centerMode'       => false,                                                        // boolean, default `false`
+     *     'centerPadding'    => '50px',                                                       // string, default `'50px'`
+     *     'cssEase'          => 'ease',                                                       // string, default `'ease'`
+     *     'customPaging'     => n/a,                                                          // function, default `n/a`
+     *     'dots'             => false,                                                        // boolean, default `false`
+     *     'dotsClass'        => 'slick-dots',                                                 // string, default `'slick-dots'`
+     *     'draggable'        => true,                                                         // boolean, default `true`
+     *     'easing'           => 'linear',                                                     // string, default `'linear'`
+     *     'edgeFriction'     => 0.15,                                                         // integer, default `0.15`
+     *     'fade'             => false,                                                        // boolean, default `false`
+     *     'focusOnSelect'    => false,                                                        // boolean, default `false`
+     *     'focusOnChange'    => false,                                                        // boolean, default `false`
+     *     'infinite'         => true,                                                         // boolean, default `true`
+     *     'initialSlide'     => 0,                                                            // integer, default `0`
+     *     'lazyLoad'         => 'ondemand',                                                   // string, default `'ondemand'`
+     *     'mobileFirst'      => false,                                                        // boolean, default `false`
+     *     'nextArrow'        => <button type="button" class="slick-next">next</button>,       // string (html | jQuery selector) | object (DOM node | jQuery object), default `<button type="button" class="slick-next">next</button>`
+     *     'pauseOnDotsHover' => false,                                                        // boolean, default `false`
+     *     'pauseOnFocus'     => true,                                                         // boolean, default `true`
+     *     'pauseOnHover'     => true,                                                         // boolean, default `true`
+     *     'prevArrow'        => <button type="button" class="slick-prev">previous</button>,   // string (html | jQuery selector) | object (DOM node | jQuery object), default `<button type="button" class="slick-prev">previous</button>`
+     *     'respondTo'        => 'window',                                                     // string, default `'window'`
+     *     'responsive'       => null,                                                         // array, default `null`
+     *     'rows'             => 1,                                                            // int, default `1`
+     *     'rtl'              => false,                                                        // boolean, default `false`
+     *     'slide'            => '',                                                           // string, default `''`
+     *     'slidesPerRow'     => 1,                                                            // int, default `1`
+     *     'slidesToScroll'   => 1,                                                            // int, default `1`
+     *     'slidesToShow'     => 1,                                                            // int, default `1`
+     *     'speed'            => 300,                                                          // int, default `300`
+     *     'swipe'            => true,                                                         // boolean, default `true`
+     *     'swipeToSlide'     => false,                                                        // boolean, default `false`
+     *     'touchMove'        => true,                                                         // boolean, default `true`
+     *     'touchThreshold'   => 5,                                                            // int, default `5`
+     *     'useCSS'           => true,                                                         // boolean, default `true`
+     *     'useTransform'     => true,                                                         // boolean, default `true`
+     *     'variableWidth'    => false,                                                        // boolean, default `false`
+     *     'vertical'         => false,                                                        // boolean, default `false`
+     *     'verticalSwiping'  => false,                                                        // boolean, default `false`
+     *     'waitForAnimate'   => true,                                                         // boolean, default `true`
+     *     'zIndex'           => 1000,                                                         // number, default `1000`'
+     * ],
+     * ```
      */
     public $pluginOptions = [];
 
