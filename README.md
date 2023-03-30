@@ -1,5 +1,5 @@
 # Yii2 Slick
-Override your input files with style for Yii2
+The last carousel you'll ever need for Yii2
 
 [![Latest Stable Version](http://poser.pugx.org/diecoding/yii2-slick/v?)](https://packagist.org/packages/diecoding/yii2-slick)
 [![Total Downloads](http://poser.pugx.org/diecoding/yii2-slick/downloads?)](https://packagist.org/packages/diecoding/yii2-slick)
@@ -9,7 +9,7 @@ Override your input files with style for Yii2
 [![License](http://poser.pugx.org/diecoding/yii2-slick/license?)](https://packagist.org/packages/diecoding/yii2-slick)
 [![PHP Version Require](http://poser.pugx.org/diecoding/yii2-slick/require/php?)](https://packagist.org/packages/diecoding/yii2-slick)
 
-> Yii2 Slick uses [Slick](https://github.com/JeremyFagis/slick) <br> Demo: http://kenwheeler.github.io/slick
+> Yii2 Slick uses [Slick](https://github.com/kenwheeler/slick) <br> Demo: http://kenwheeler.github.io/slick
 
 ## Table of Contents
 
@@ -48,7 +48,7 @@ or add to the require section of your `composer.json` file.
 use diecoding\slick\SlickCarousel;
 
 echo SlickCarousel::widget([
-    'items' => [                    // (array) widget elements for the carousel
+    'items' => [ // (array) widget elements for the carousel
         // HTML content
         '<div><h3>1</h3></div>',
         '<div><h3>2</h3></div>',
@@ -115,7 +115,7 @@ echo SlickCarousel::widget([
         // 'waitForAnimate'   => true,                                                         // boolean, default `true`
         // 'zIndex'           => 1000,                                                         // number, default `1000`
     ],
-    'pluginEvents'     => [        // array default `[]`, JQuery events
+    'pluginEvents' => [ // array default `[]`, JQuery events
         // @see https://github.com/kenwheeler/slick/#events
 
         // 'afterChange' => 'function(event, slick, currentSlide) {
