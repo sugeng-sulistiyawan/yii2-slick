@@ -1,13 +1,13 @@
 # Yii2 Slick
 The last carousel you'll ever need for Yii2
 
-[![Latest Stable Version](http://poser.pugx.org/diecoding/yii2-slick/v?)](https://packagist.org/packages/diecoding/yii2-slick)
-[![Total Downloads](http://poser.pugx.org/diecoding/yii2-slick/downloads?)](https://packagist.org/packages/diecoding/yii2-slick)
+[![Latest Stable Version](http://poser.pugx.org/diecoding/yii2-slick/v)](https://packagist.org/packages/diecoding/yii2-slick)
+[![Total Downloads](http://poser.pugx.org/diecoding/yii2-slick/downloads)](https://packagist.org/packages/diecoding/yii2-slick)
 [![Quality Score](https://img.shields.io/scrutinizer/g/sugeng-sulistiyawan/yii2-slick.svg?)](https://scrutinizer-ci.com/g/sugeng-sulistiyawan/yii2-slick)
 [![Build Status](https://app.travis-ci.com/sugeng-sulistiyawan/yii2-slick.svg?branch=master)](https://app.travis-ci.com/sugeng-sulistiyawan/yii2-slick)
-[![Latest Unstable Version](http://poser.pugx.org/diecoding/yii2-slick/v/unstable?)](https://packagist.org/packages/diecoding/yii2-slick)
-[![License](http://poser.pugx.org/diecoding/yii2-slick/license?)](https://packagist.org/packages/diecoding/yii2-slick)
-[![PHP Version Require](http://poser.pugx.org/diecoding/yii2-slick/require/php?)](https://packagist.org/packages/diecoding/yii2-slick)
+[![Latest Unstable Version](http://poser.pugx.org/diecoding/yii2-slick/v/unstable)](https://packagist.org/packages/diecoding/yii2-slick)
+[![License](http://poser.pugx.org/diecoding/yii2-slick/license)](https://packagist.org/packages/diecoding/yii2-slick)
+[![PHP Version Require](http://poser.pugx.org/diecoding/yii2-slick/require/php)](https://packagist.org/packages/diecoding/yii2-slick)
 
 > Yii2 Slick uses [Slick](https://github.com/kenwheeler/slick) <br> Demo: http://kenwheeler.github.io/slick
 
