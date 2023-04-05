@@ -1,13 +1,14 @@
 # Yii2 Slick
+
 The last carousel you'll ever need for Yii2
 
-[![Latest Stable Version](http://poser.pugx.org/diecoding/yii2-slick/v)](https://packagist.org/packages/diecoding/yii2-slick)
-[![Total Downloads](http://poser.pugx.org/diecoding/yii2-slick/downloads)](https://packagist.org/packages/diecoding/yii2-slick)
-[![Quality Score](https://img.shields.io/scrutinizer/g/sugeng-sulistiyawan/yii2-slick.svg?)](https://scrutinizer-ci.com/g/sugeng-sulistiyawan/yii2-slick)
-[![Build Status](https://app.travis-ci.com/sugeng-sulistiyawan/yii2-slick.svg?branch=master)](https://app.travis-ci.com/sugeng-sulistiyawan/yii2-slick)
-[![Latest Unstable Version](http://poser.pugx.org/diecoding/yii2-slick/v/unstable)](https://packagist.org/packages/diecoding/yii2-slick)
-[![License](http://poser.pugx.org/diecoding/yii2-slick/license)](https://packagist.org/packages/diecoding/yii2-slick)
-[![PHP Version Require](http://poser.pugx.org/diecoding/yii2-slick/require/php)](https://packagist.org/packages/diecoding/yii2-slick)
+[![Latest Stable Version](https://img.shields.io/packagist/v/diecoding/yii2-slick?label=stable)](https://packagist.org/packages/diecoding/yii2-slick)
+[![Total Downloads](https://img.shields.io/packagist/dt/diecoding/yii2-slick)](https://packagist.org/packages/diecoding/yii2-slick)
+[![Latest Stable Release Date](https://img.shields.io/github/release-date/sugeng-sulistiyawan/yii2-slick)](https://github.com/sugeng-sulistiyawan/yii2-slick)
+[![Quality Score](https://img.shields.io/scrutinizer/quality/g/sugeng-sulistiyawan/yii2-slick)](https://scrutinizer-ci.com/g/sugeng-sulistiyawan/yii2-slick)
+[![Build Status](https://img.shields.io/travis/com/sugeng-sulistiyawan/yii2-slick)](https://app.travis-ci.com/sugeng-sulistiyawan/yii2-slick)
+[![License](https://img.shields.io/github/license/sugeng-sulistiyawan/yii2-slick)](https://github.com/sugeng-sulistiyawan/yii2-slick)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/diecoding/yii2-slick/php?color=6f73a6)](https://packagist.org/packages/diecoding/yii2-slick)
 
 > Yii2 Slick uses [Slick](https://github.com/kenwheeler/slick) <br> Demo: http://kenwheeler.github.io/slick
 
