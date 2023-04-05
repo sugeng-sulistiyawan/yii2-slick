@@ -22,8 +22,7 @@ The last carousel you'll ever need for Yii2
 
 ## Instalation
 
-Package is available on [Packagist](https://packagist.org/packages/diecoding/yii2-slick), 
-you can install it using [Composer](https://getcomposer.org).
+Package is available on [Packagist](https://packagist.org/packages/diecoding/yii2-slick), you can install it using [Composer](https://getcomposer.org).
 
 ```shell
 composer require diecoding/yii2-slick "^1.0"
