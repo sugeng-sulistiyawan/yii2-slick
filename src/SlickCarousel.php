@@ -52,7 +52,7 @@ class SlickCarousel extends Widget
      * @see https://github.com/kenwheeler/slick/#settings
      * 
      * ```php
-     * 'pluginEvents' => [
+     * 'pluginOptions' => [
      *     'accessibility'    => true,                                                         // boolean, default `true`
      *     'adaptiveHeight'   => false,                                                        // boolean, default `false`
      *     'appendArrows'     => $(element),                                                   // string, default `$(element)`
