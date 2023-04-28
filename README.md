@@ -30,7 +30,7 @@ composer require diecoding/yii2-slick "^1.0"
 
 or add to the require section of your `composer.json` file.
 
-```
+```shell
 "diecoding/yii2-slick": "^1.0"
 ```
 
@@ -154,3 +154,7 @@ echo SlickCarousel::widget([
     ],
 ]);
 ```
+
+---
+
+Read more docs: https://sugengsulistiyawan.my.id/docs/opensource/yii2/slick/
